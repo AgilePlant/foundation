@@ -2,9 +2,9 @@
 
 namespace Foundation\Tests;
 
+use Foundation\Foundation\FoundationServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Foundation\Foundation\FoundationServiceProvider;
 
 class TestCase extends Orchestra
 {

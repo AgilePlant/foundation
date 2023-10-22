@@ -2,9 +2,9 @@
 
 namespace Foundation;
 
+use Foundation\Commands\FoundationCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Foundation\Commands\FoundationCommand;
 
 class FoundationServiceProvider extends PackageServiceProvider
 {
